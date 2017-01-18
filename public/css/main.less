@@ -1,0 +1,69 @@
+@import "elements.less";
+@import "my_mixins.less";
+
+/*variables*/
+	@common_url:"../common/";
+	@main_font:"";
+	@second_font:"";
+	@white:#fff;
+	@black_text:#000;
+	@white_bg:#fff;
+/*variables*/
+
+/*=====================LAYOUT=====================*/
+/*fonts*/
+
+/*fonts*/
+
+/*all*/
+*{
+	outline: none!important;
+}
+
+html{
+  
+}
+
+body{
+	.font(14px,400,@black_text,@main_font);
+}
+
+a{
+	
+}
+
+p{
+	
+}
+
+input{
+	.input_colors();
+}
+
+textarea{
+	.input_colors();
+}
+
+.row{
+	&.xs{
+		.row(0);	
+	}
+	
+	&.sm{
+		.row(7.5px);	
+	}
+	
+	&.md{
+		.row(10px);
+	}
+}
+
+.navbar-collapse{
+	padding: 0;
+}
+
+.img_wrap{
+	display: inline-block;
+}
+/*all*/
+/*=====================LAYOUT=====================*/

@@ -1,0 +1,136 @@
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+/*mixins*/
+/*mixins*/
+/*variables*/
+/*variables*/
+/*=====================LAYOUT=====================*/
+/*fonts*/
+/*fonts*/
+/*all*/
+* {
+  outline: none!important;
+}
+body {
+  font-family: "";
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+}
+input {
+  color: #000;
+}
+input::-webkit-input-placeholder {
+  color: #666666;
+}
+input:-moz-placeholder {
+  color: #666666;
+}
+input::-moz-placeholder {
+  color: #666666;
+}
+input:-ms-input-placeholder {
+  color: #666666;
+}
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+input:focus:-moz-placeholder {
+  color: transparent;
+}
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+input:focus::-moz-placeholder {
+  color: transparent;
+}
+textarea {
+  color: #000;
+}
+textarea::-webkit-input-placeholder {
+  color: #666666;
+}
+textarea:-moz-placeholder {
+  color: #666666;
+}
+textarea::-moz-placeholder {
+  color: #666666;
+}
+textarea:-ms-input-placeholder {
+  color: #666666;
+}
+textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+textarea:focus:-moz-placeholder {
+  color: transparent;
+}
+textarea:focus:-ms-input-placeholder {
+  color: transparent;
+}
+textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+.row.xs {
+  margin-left: 0;
+  margin-right: 0;
+}
+.row.xs:before,
+.row.xs:after {
+  display: table;
+  content: " ";
+}
+.row.xs:after {
+  clear: both;
+}
+.row.xs > * {
+  padding-left: 0;
+  padding-right: 0;
+  float: left;
+}
+.row.sm {
+  margin-left: -7.5px;
+  margin-right: -7.5px;
+}
+.row.sm:before,
+.row.sm:after {
+  display: table;
+  content: " ";
+}
+.row.sm:after {
+  clear: both;
+}
+.row.sm > * {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+  float: left;
+}
+.row.md {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.row.md:before,
+.row.md:after {
+  display: table;
+  content: " ";
+}
+.row.md:after {
+  clear: both;
+}
+.row.md > * {
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+.navbar-collapse {
+  padding: 0;
+}
+.img_wrap {
+  display: inline-block;
+}
+/*all*/
+/*=====================LAYOUT=====================*/
